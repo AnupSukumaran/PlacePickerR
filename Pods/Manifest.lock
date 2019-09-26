@@ -23,14 +23,14 @@ PODS:
     - SDWebImage/Core
 
 DEPENDENCIES:
-  - Alamofire
-  - GoogleMaps
-  - GooglePlaces
-  - NVActivityIndicatorView/AppExtension
-  - SDWebImage/WebP
+  - Alamofire (~> 4.8.2)
+  - GoogleMaps (~> 3.1.0)
+  - GooglePlaces (~> 3.1.0)
+  - NVActivityIndicatorView/AppExtension (~> 4.7.0)
+  - SDWebImage/WebP (~> 4.4.7)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - GoogleMaps
     - GooglePlaces
@@ -46,6 +46,6 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
 
-PODFILE CHECKSUM: 2148498c3b52e9d11dfe40f95019de915988a7a5
+PODFILE CHECKSUM: e6bb4ab93f6cdda4fdffe0862d01231bd247f8b1
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.0

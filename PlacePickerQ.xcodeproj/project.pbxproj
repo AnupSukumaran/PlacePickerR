@@ -47,7 +47,6 @@
 		0EFA6DCC22B286B300D10D4E /* SetImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA6DBB22B286B300D10D4E /* SetImg.swift */; };
 		0EFA6DCD22B286B300D10D4E /* Picker_PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA6DBC22B286B300D10D4E /* Picker_PlaceMarker.swift */; };
 		0EFA6DD022B286D000D10D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA6DCF22B286D000D10D4E /* Assets.xcassets */; };
-		9273147630B042F0CEA8D3B8 /* Pods_Sample_PlacePickerQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E3051894B14F3DC3529554 /* Pods_Sample_PlacePickerQ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,10 +97,7 @@
 		0EFA6DBC22B286B300D10D4E /* Picker_PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker_PlaceMarker.swift; sourceTree = "<group>"; };
 		0EFA6DCF22B286D000D10D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39475E9F3F55DCDDEF7C7246 /* libPods-PlacePickerQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlacePickerQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AFE3A3CC56AAD4057111300 /* Pods-Sample_PlacePickerQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_PlacePickerQ.debug.xcconfig"; path = "Target Support Files/Pods-Sample_PlacePickerQ/Pods-Sample_PlacePickerQ.debug.xcconfig"; sourceTree = "<group>"; };
-		6BF5348FAF55C1312002D6F4 /* Pods-Sample_PlacePickerQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_PlacePickerQ.release.xcconfig"; path = "Target Support Files/Pods-Sample_PlacePickerQ/Pods-Sample_PlacePickerQ.release.xcconfig"; sourceTree = "<group>"; };
 		B7C27EE6F086E54F82ADAE8C /* Pods-PlacePickerQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacePickerQ.debug.xcconfig"; path = "Target Support Files/Pods-PlacePickerQ/Pods-PlacePickerQ.debug.xcconfig"; sourceTree = "<group>"; };
-		D6E3051894B14F3DC3529554 /* Pods_Sample_PlacePickerQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_PlacePickerQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +106,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EDA55F7233B69C800453FC2 /* PlacePickerQ.framework in Frameworks */,
-				9273147630B042F0CEA8D3B8 /* Pods_Sample_PlacePickerQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +289,6 @@
 				0EDA55FA233B702700453FC2 /* libAlamofire.a */,
 				0EDA55F8233B6FE000453FC2 /* libAlamofire.a */,
 				39475E9F3F55DCDDEF7C7246 /* libPods-PlacePickerQ.a */,
-				D6E3051894B14F3DC3529554 /* Pods_Sample_PlacePickerQ.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,8 +298,6 @@
 			children = (
 				B7C27EE6F086E54F82ADAE8C /* Pods-PlacePickerQ.debug.xcconfig */,
 				07AB3F399FD63D3925E211E1 /* Pods-PlacePickerQ.release.xcconfig */,
-				4AFE3A3CC56AAD4057111300 /* Pods-Sample_PlacePickerQ.debug.xcconfig */,
-				6BF5348FAF55C1312002D6F4 /* Pods-Sample_PlacePickerQ.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -328,7 +320,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E18D9FE22BA2D6B00690926 /* Build configuration list for PBXNativeTarget "Sample_PlacePickerQ" */;
 			buildPhases = (
-				EDCCE8AFCA872BC7D955DF8C /* [CP] Check Pods Manifest.lock */,
 				0E18D9E922BA2D6A00690926 /* Sources */,
 				0E18D9EA22BA2D6A00690926 /* Frameworks */,
 				0E18D9EB22BA2D6A00690926 /* Resources */,
@@ -351,7 +342,7 @@
 				0EFA6D8A22B27F6300D10D4E /* Sources */,
 				0EFA6D8B22B27F6300D10D4E /* Frameworks */,
 				0EFA6D8C22B27F6300D10D4E /* Resources */,
-				DC4692F5B45C228B3BECD63F /* [CP] Copy Pods Resources */,
+				083FF83001861A5425684728 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -474,29 +465,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D6A8737B172B484C3BE0751 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PlacePickerQ-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC4692F5B45C228B3BECD63F /* [CP] Copy Pods Resources */ = {
+		083FF83001861A5425684728 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,7 +482,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlacePickerQ/Pods-PlacePickerQ-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EDCCE8AFCA872BC7D955DF8C /* [CP] Check Pods Manifest.lock */ = {
+		5D6A8737B172B484C3BE0751 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,7 +497,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sample_PlacePickerQ-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PlacePickerQ-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,7 +585,6 @@
 /* Begin XCBuildConfiguration section */
 		0E18D9FC22BA2D6B00690926 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AFE3A3CC56AAD4057111300 /* Pods-Sample_PlacePickerQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,7 +604,6 @@
 		};
 		0E18D9FD22BA2D6B00690926 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BF5348FAF55C1312002D6F4 /* Pods-Sample_PlacePickerQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
