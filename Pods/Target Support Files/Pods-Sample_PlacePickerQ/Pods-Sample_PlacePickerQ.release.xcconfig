@@ -1,12 +1,5 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire-framework" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView-framework" "${PODS_CONFIGURATION_BUILD_DIR}/PlacePickerQ" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage-framework" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp-framework" "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Maps/Frameworks" "${PODS_ROOT}/GooglePlaces/Frameworks"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) SD_WEBP=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire-framework/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView-framework/NVActivityIndicatorView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PlacePickerQ/PlacePickerQ.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage-framework/SDWebImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libwebp-framework/libwebp.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/libwebp"
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "Accelerate" -framework "Alamofire" -framework "CoreData" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "GLKit" -framework "GoogleMaps" -framework "GoogleMapsBase" -framework "GoogleMapsCore" -framework "GooglePlaces" -framework "ImageIO" -framework "NVActivityIndicatorView" -framework "OpenGLES" -framework "PlacePickerQ" -framework "QuartzCore" -framework "SDWebImage" -framework "SystemConfiguration" -framework "UIKit" -framework "libwebp"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-USER_HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/libwebp/src

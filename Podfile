@@ -22,7 +22,7 @@ target 'Sample_PlacePickerQ' do
    use_frameworks!
   
   # Pods for PlacePickerR
-    pod 'PlacePickerR'
-    pod 'SDWebImage/WebP','~> 4.4.7', :modular_headers => true
+   # pod 'PlacePickerR'
+   # pod 'SDWebImage/WebP','~> 4.4.7', :modular_headers => true
   
 end
