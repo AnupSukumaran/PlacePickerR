@@ -9,12 +9,11 @@ target 'PlacePickerQ' do
 
   # Pods for PlacePickerQ
   
-    pod 'SDWebImage/WebP', "~> 4.4.7", :modular_headers => true
-    pod 'Alamofire' , "~> 4.8.2"
-    pod 'GooglePlaces' , "~> 3.1.0"
-    pod 'GoogleMaps' , "~> 3.1.0"
-    pod 'NVActivityIndicatorView/AppExtension' , "~> 4.7.0"
-
+    pod 'SDWebImage/WebP', :modular_headers => true
+    pod 'Alamofire'
+    pod 'GooglePlaces'
+    pod 'GoogleMaps'
+    pod 'NVActivityIndicatorView/AppExtension'
 end
 
 #target 'Sample_PlacePickerQ' do
