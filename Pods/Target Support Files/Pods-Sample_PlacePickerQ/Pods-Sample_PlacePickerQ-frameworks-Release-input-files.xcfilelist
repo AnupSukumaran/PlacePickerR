@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Sample_PlacePickerQ/Pods-Sample_PlacePickerQ-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView-framework/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage-framework/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/libwebp-framework/libwebp.framework

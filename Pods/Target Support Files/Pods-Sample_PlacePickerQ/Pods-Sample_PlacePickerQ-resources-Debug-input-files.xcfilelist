@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-Sample_PlacePickerQ/Pods-Sample_PlacePickerQ-resources.sh
+${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle
+${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/NoData.imageset/icons8-delete-database-64.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/center_pin.imageset/icons8-marker-96.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/iconDefault.imageset/baseline_adjust_black_48pt_1x.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/iconDefault.imageset/baseline_adjust_black_48pt_2x.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/iconDefault.imageset/baseline_adjust_black_48pt_3x.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/marker.imageset/icons8-marker-24.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets/PlacePickerLibrary/pin2.imageset/icons8-marker-30-3.png
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Storyboard/Base.lproj/PlacePicker.storyboard
+${PODS_ROOT}/PlacePickerQ/PlacePickerQ/Resources/Assets.xcassets

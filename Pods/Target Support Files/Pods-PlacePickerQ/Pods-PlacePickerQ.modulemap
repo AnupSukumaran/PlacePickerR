@@ -1,0 +1,6 @@
+module Pods_PlacePickerQ {
+  umbrella header "Pods-PlacePickerQ-umbrella.h"
+
+  export *
+  module * { export * }
+}
